@@ -3,7 +3,7 @@ Allow auction for nfts/other items, WVC tokens through ETH(or USD?) for WVC and 
 
 UI:
 
-Selling side:
+Buying side:
 List each item being sold, ordered by different categories, default by most popular auction for a certain token (ETH or WVC)
 
 List 15~ items per page
@@ -18,14 +18,17 @@ On clicking an item, a square window pops up for bidding
 
 Auction system:
 	-extend auction time by 10 seconds when a bid is placed within 10 seconds of bid end
+	-limit 10 extensions
 
-
-Buying side:
+Selling side:
 List each item you've put on auction, current bid price(if not sold), final bid price(if sold)
+
 Clicking on each shows similar ui to selling side (square with description)
 
 Users can list items by putting in a minimum price, bid time, image, description
+
 Users can view history of bids, sales, transfers, and in what currency it was done in
 
+Users must show proof of item ownership in order to place a proper item listing
 
 
