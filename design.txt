@@ -11,7 +11,7 @@ List 15~ items per page
 Each item has current price(flashes between USD, WVC, ETH), a bid time left, and bid count - with an image of the item being sold (support jpg, gif, png file types)
 
 On clicking an item, a square window pops up for bidding
-	-enter amount (in ETH or WVC, depending on the item - Wolvercoin can be bid on by ETH) 
+	-enter amount (in some token or WVC, depending on the item - Wolvercoin can be bid on by ETH or some other token like maybe USD as well through PayPal?) 
 	-shows bid history (time, price)
 	-shows item description(limit 200 words)
 	
