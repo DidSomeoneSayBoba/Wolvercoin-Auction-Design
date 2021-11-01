@@ -60,6 +60,8 @@ Priority:
 1. Auction Class, Selling Class are the most important as they establish the auction system from both ends
 2. Random starting price motive can be added later, as it is not necessary to the program's functioning
 
+
+
 Allow auction for nfts/other items, WVC tokens through ETH(or USD?) for WVC and WVC tokens for nfts and other items
 
 
