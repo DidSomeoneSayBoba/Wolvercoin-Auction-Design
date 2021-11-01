@@ -19,7 +19,7 @@ Auction Class
 		- Parameter:
 			- auctionName (String) - name of auction user wants to open
 		- Behavior:
-			- if auctionName is the same as an itemName, prints auction 				  details
+			- if auctionName is the same as an itemName, prints auction details
 				- timeLeft, bidCount, description
 	- bid (Double amount)
 		- Parameter:
@@ -27,7 +27,7 @@ Auction Class
 		- Behavior:
 			- Determines if amount > currentPrice
 			- If yes, currentPrice becomes amount
-			- if timeLeft < 10 seconds and timeExtensions < 10, add 10 seconds 			  to timeLeft
+			- if timeLeft < 10 seconds and timeExtensions < 10, add 10 seconds to timeLeft
 Selling Class
 - Variables
 	- itemName (String)
@@ -45,7 +45,7 @@ Selling Class
 			- name (String): name of auction user is looking for
 		- Behavior:
 			- if name equals itemName, prints description
-	- postAuction (Double minPrice, Double time, Object image, String descrip, Double 	  increment)
+	- postAuction (Double minPrice, Double time, Object image, String descrip, Double increment)
 		- Parameters:
 			- minPrice (Double): minimum price
 			- itemName (String): name
