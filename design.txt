@@ -1,3 +1,15 @@
+Auction Class
+- Variables
+	- itemName (string)
+	- popularity (int)
+	- currentPrice (double)
+	- timeLeft (double)
+	- bidCount (int)
+	- item (image)
+
+
+
+
 Allow auction for nfts/other items, WVC tokens through ETH(or USD?) for WVC and WVC tokens for nfts and other items
 
 
