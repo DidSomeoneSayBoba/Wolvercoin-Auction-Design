@@ -1,4 +1,4 @@
-Auction Class
+Bidding Class
 - Variables
 	- itemName (string)
 	- popularity (int)
@@ -6,7 +6,26 @@ Auction Class
 	- timeLeft (double)
 	- bidCount (int)
 	- item (image)
-
+	- description (String)
+- Methods
+	- sort (String choice)
+		- Parameter:
+			- choice (String): how the auctions will be sorted
+		- Behavior:
+			- Determines if entered choice is viable sorting option
+			- If yes, outputs sorted auctions
+	- openAuction (String auctionName)
+		- Parameter:
+			- auctionName (String) - name of auction user wants to open
+		- Behavior:
+			- Prints auction details
+				- timeLeft, bidCount, description
+	- bid (Double amount)
+		- Parameter:
+			- amount (Double): how much the user will bid
+		- Behavior:
+			- Determines if amount > currentPrice
+			- If yes, currentPrice becomes amount
 
 
 
