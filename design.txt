@@ -15,11 +15,11 @@ Auction Class
 		- Behavior:
 			- Determines if entered choice is viable sorting option
 			- If yes, outputs sorted auctions
-	- openAuction (String auctionName)
+	- openAuction (String name)
 		- Parameter:
 			- auctionName (String) - name of auction user wants to open
 		- Behavior:
-			- Prints auction details
+			- if auctionName is the same as an itemName, prints auction 				  details
 				- timeLeft, bidCount, description
 	- bid (Double amount)
 		- Parameter:
@@ -28,8 +28,33 @@ Auction Class
 			- Determines if amount > currentPrice
 			- If yes, currentPrice becomes amount
 			- if timeLeft < 10 seconds and timeExtensions < 10, add 10 seconds 			  to timeLeft
-
-
+Selling Class
+- Variables
+	- itemName (String)
+	- currentPrice (double)
+	- finalPrice (double)
+	- description (String)
+	- minimumPrice (double)
+	- bidTime (double)
+	- minimumIncrement (double)
+	- currency (String)
+	- item (image)
+- Methods
+	- openAuction (String name)
+		- Parameters:
+			- name (String): name of auction user is looking for
+		- Behavior:
+			- if name equals itemName, prints description
+	- postAuction (Double minPrice, Double time, Object image, String descrip, Double 	  increment)
+		- Parameters:
+			- minPrice (Double): minimum price
+			- itemName (String): name
+			- time (Double): auction time
+			- image (Object): image of auction item
+			- descrip (String): description of item
+			- increment (Double): increment amount for bidding
+		- Behavior:
+			- Sets instance variables to matching parameters 
 
 Allow auction for nfts/other items, WVC tokens through ETH(or USD?) for WVC and WVC tokens for nfts and other items
 
